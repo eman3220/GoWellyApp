@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">GoWellyApp</string>
+    <string name="app_name">GoW</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_start_up0__stops_">StartUp0_Stops_Activity</string>
+    <string name="title_activity_start_up1__routes_">StartUp1_Routes_Activity</string>
+
+    <!-- Home Page Toggle Buttons -->
+    <string name="home_toggle_0">Toggle0</string>
+    <string name="home_toggle_1">Toggle1</string>
+    <string name="home_toggle_2">Toggle2</string>
+
+    <!-- Start Up - Stops -->
+	<string name="StartUp0_prompt">Select Favourite Stops</string>
+
+	<!-- Start Up - Routes -->
+	<string name="StartUp1_prompt">Select Favourite Routes</string>
+
+    <!-- Random Stuff -->
+	<string name="home_doc">This is the home page</string>
+
 
 </resources>

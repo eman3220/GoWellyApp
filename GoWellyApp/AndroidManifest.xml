@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gowellyapp"
+    package="com.example.gow"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,13 +8,16 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.gowellyapp.HomeActivity"
+            android:name="com.example.gow.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +25,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.gow.StartUp0_Stops_Activity"
+            android:label="@string/title_activity_start_up0__stops_"
+            android:parentActivityName="com.example.gow.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gow.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.gow.StartUp1_Routes_Activity"
+            android:label="@string/title_activity_start_up1__routes_" >
+        </activity>
+
     </application>
 
 </manifest>
